@@ -10,3 +10,5 @@
     - SQLite db, List activity
 5. SharedPreferencesExample:
     - custom shared preferences, default shared preferences, preferences fragment
+6. FileManagmentExample:
+    - Write/read file in internal storage, read static file(raw)
