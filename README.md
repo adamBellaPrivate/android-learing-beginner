@@ -15,4 +15,4 @@
 7. LocalNotificationExample:
     - Catch and fire local notification
 8. MapExample:
-    - Google maps v2 MapFragment
+    - Google maps v2 MapFragment, draw polyline and polygon on the map,
