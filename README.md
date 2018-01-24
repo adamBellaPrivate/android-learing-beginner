@@ -14,3 +14,5 @@
     - Write/read file in internal storage, read static file(raw)
 7. LocalNotificationExample:
     - Catch and fire local notification
+8. MapExample:
+    - Google maps v2 MapFragment
