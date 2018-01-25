@@ -15,4 +15,8 @@
 7. LocalNotificationExample:
     - Catch and fire local notification
 8. MapExample:
-    - Google maps v2 MapFragment, draw polyline and polygon on the map,
+    - Google maps v2 MapFragment, draw polyline and polygon on the map
+9. CameraApplicatiom:
+    - use the camera application and create SurfaceView solution
+10. DragAndDropExample:
+    

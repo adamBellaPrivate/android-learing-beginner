@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:orientation="vertical"
+    android:rowCount="3"
+    android:stretchMode="columnWidth" >
+
+    <LinearLayout
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0">
+
+        <Button
+            android:id="@+id/button"
+            android:tag="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Option 1"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/button2"
+            android:tag="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Option 2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:tag="3"
+            android:background="@android:color/holo_green_light"
+            android:text="Option 3" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:tag="4"
+            android:background="@android:color/holo_red_dark"
+            android:text="Option 4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/targetRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/targetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:tag="5"
+            android:background="@android:color/holo_red_dark"
+            android:text="Target color" />
+    </LinearLayout>
+
+</GridLayout>
